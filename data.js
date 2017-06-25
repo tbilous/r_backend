@@ -1,6 +1,9 @@
 var imgAttr = { alt: 'img'};
 
 module.exports = {
+  meta: {
+    perPage: 10
+  },
   posts: [
     {
       id: 1,
